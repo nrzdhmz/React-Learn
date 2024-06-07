@@ -1,0 +1,23 @@
+.header{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  border-bottom: 2px white solid;
+  margin-bottom: 20px;
+  nav{
+    justify-content: center;
+    ul{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      li{
+        font-size: 2rem;
+        color: white;
+      }
+    }
+  }
+}

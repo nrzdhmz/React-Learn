@@ -1,0 +1,27 @@
+.posts{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  .post{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    img{
+      width: 300px!important;
+      height: 300px;
+      margin-bottom: 10px;
+    }
+  }
+}
+button{
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.comments{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
